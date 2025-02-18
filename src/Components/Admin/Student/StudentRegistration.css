@@ -1,0 +1,65 @@
+/* Scoped styles for StudentRegistration */
+.student-registration {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.student-registration h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.student-registration input,
+.student-registration select,
+.student-registration textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.student-registration input:focus,
+.student-registration select:focus,
+.student-registration textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.student-registration button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.student-registration button:hover {
+    background-color: #2980b9;
+}
+
+.student-registration .error {
+    color: red;
+    margin-bottom: 16px;
+}
+
+.student-registration .success {
+    color: green;
+    margin-bottom: 16px;
+}
+
+.student-registration .photo-preview {
+    margin-top: 12px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}

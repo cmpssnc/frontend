@@ -1,0 +1,207 @@
+/* Container styling */
+.p-4 {
+    padding: 16px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.max-w-4xl {
+    max-width: 1200px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header Styling */
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.mb-4 {
+    margin-bottom: 16px;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+/* Add Student Button Styling */
+.bg-green-500 {
+    background-color: #48bb78;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.px-4 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.py-2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.hover\:bg-green-700:hover {
+    background-color: #2f855a;
+}
+
+/* Search & Filter Section Styling */
+.gap-2 {
+    gap: 8px;
+}
+
+.border {
+    border: 1px solid #ccc;
+}
+
+.p-2 {
+    padding: 8px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+/* Search Button Styling */
+.bg-blue-500 {
+    background-color: #4299e1;
+}
+
+.hover\:bg-blue-600:hover {
+    background-color: #3182ce;
+}
+
+/* Loading & Error Messages */
+.text-red-500 {
+    color: #e53e3e;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.border-collapse {
+    border-collapse: collapse;
+}
+
+.mt-4 {
+    margin-top: 16px;
+}
+
+/* Table Header Styling */
+thead {
+    background-color: #f7fafc;
+}
+
+th {
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    color: #2d3748;
+}
+
+td {
+    padding: 12px;
+    text-align: left;
+    color: #4a5568;
+}
+
+/* Table Row Styling */
+tr {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Table Action Button */
+.bg-blue-500 {
+    background-color: #4299e1;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.py-1 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.hover\:bg-blue-700:hover {
+    background-color: #2b6cb0;
+}
+
+/* Table Empty State */
+.p-2 {
+    padding: 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .mb-4 {
+        margin-bottom: 20px;
+    }
+
+    .text-xl {
+        font-size: 1.1rem;
+    }
+
+    .table {
+        overflow-x: auto;
+    }
+}
+
+.container {
+    background-color: white;
+    min-width: 900px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}

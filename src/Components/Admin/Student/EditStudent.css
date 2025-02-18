@@ -1,0 +1,47 @@
+/* Apply padding inside the container */
+.edit-student-form {
+    max-width: 500px;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    box-sizing: border-box; /* ✅ Ensures padding doesn't break layout */
+}
+
+/* Input Fields */
+.edit-input,
+.edit-select,
+.edit-textarea {
+    width: calc(100% - 20px); /* ✅ Prevents touching the edges */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box; /* ✅ Fixes box-sizing issue */
+}
+
+/* Focus Effect */
+.edit-input:focus,
+.edit-select:focus,
+.edit-textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    margin: 10px 0;
+}
+
+.cancel-btn {
+    background-color: tomato;
+}
+
+.cancel-btn:hover {
+    background-color: red;
+}

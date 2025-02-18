@@ -1,0 +1,41 @@
+/* Navbar Styles */
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 15px;
+    position: fixed;  /* Fixed positioning to stick it to the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;  /* Stretches the navbar to full viewport width */
+}
+
+.navbar-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar-btn:hover {
+    background-color: #45a049;
+}
+
+.logout-btn {
+    background-color: #f44336;
+}
+
+.logout-btn:hover {
+    background-color: #e53935;
+}
+
+/* Optional: Add padding to the body to prevent content from being hidden under the navbar */
+body {
+    padding-top: 80px; /* Adjust based on the navbar height */
+}
